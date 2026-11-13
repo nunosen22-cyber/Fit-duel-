@@ -35,6 +35,6 @@ nav button{border:0;background:none;color:#8f9a90;font-size:10px;font-weight:700
 </main>
 <nav><button class="active" onclick="show('home',this)"><b>⌂</b>HOME</button><button onclick="show('duel',this)"><b>⚔</b>DUEL</button><button onclick="show('ranking',this)"><b>♛</b>RANK</button><button onclick="show('meals',this)"><b>◉</b>MEALS</button><button onclick="show('profile',this)"><b>◎</b>PROFILE</button></nav>
 <script>function show(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));if(btn)btn.classList.add('active');else document.querySelectorAll('nav button')[['home','duel','ranking','meals','profile'].indexOf(id)].classList.add('active');window.scrollTo(0,0)}</script>
-" content="FitDuel">
+" content="FitDuel"
 </body></html>
 
